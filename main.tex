@@ -51,7 +51,7 @@ El presente informe reúne la documentación de la solución del segundo trabajo
 \section{Supuestos}\label{sec:supuestos}
 % Deberá contener explicaciones de cada uno de los supuestos que el alumno haya tenido que adoptar a partir de situaciones que no estén contempladas en la especificación.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec facilisis odio. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In aliquam dapibus lacus at condimentum. Curabitur ornare scelerisque euismod. Duis a mi in nulla sodales sollicitudin vehicula sit amet sapien. Quisque vel eros ut libero consequat scelerisque. Nullam efficitur ante eu massa gravida sollicitudin. Cras vel lobortis est. Fusce nibh libero, euismod ac eros in, auctor faucibus diam. Vivamus molestie tincidunt purus, in congue risus elementum quis. Sed hendrerit magna quam, a pretium odio feugiat ut. Fusce metus libero, egestas vel facilisis vitae, ullamcorper rhoncus massa.
+En el grupo una delas primeras interrogantes que surgió es, \textit{¿un jugador en su turno puede mover y/o atacar?}, nosotros para la resolución de este TP vamos a tomar la opción de \textbf{un jugador en su turno so lo va poder atacar o mover}.
 
 
 \section{Diagramas de clase}\label{sec:diagramasdeclase}
@@ -61,7 +61,7 @@ Nunc molestie facilisis diam in auctor. Nulla sed porta nibh, eu elementum erat.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.8\textwidth]{diagrama_clase01.png}
+\includegraphics[width=0.8\textwidth]{DiagramasDeClases/diagrama_clase01.png}
 \caption{\label{fig:class01}Diagrama del Sudoku.}
 \end{figure}
 
@@ -72,7 +72,7 @@ Sed scelerisque est at augue finibus, at faucibus erat venenatis. Phasellus euis
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.8\textwidth]{diagrama_secuencia01.png}
+\includegraphics[width=0.8\textwidth]{DiagramasDeSecuencia/diagrama_secuencia01.png}
 \caption{\label{fig:seq01}Aliquam rutrum justo sed.}
 \end{figure}
 
@@ -84,7 +84,7 @@ Duis est eros, laoreet viverra molestie ac, fringilla eget sapien. Sed molestie 
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=\textwidth]{diagrama_secuencia02.png}
+\includegraphics[width=\textwidth]{DiagramasDeSecuencia/diagrama_secuencia02.png}
 \caption{\label{fig:seq02}Nam a nulla non mauris ullamcorper.}
 \end{figure}
 
@@ -107,8 +107,8 @@ Donec fermentum volutpat diam, non sodales dui pulvinar nec. Vestibulum eu nisl 
 \section{Detalles de implementación}\label{sec:implementacion}
 % Explicaciones sobre la implementación interna de algunas clases que consideren que puedan llegar a resultar interesantes.
 
-\subsection{Aliquam vel eros id magna vestibulum rhoncus}
-Sed lorem diam, imperdiet in suscipit sed, lacinia id est. Duis ac turpis at velit tristique dictum ac in augue. Etiam porttitor purus sed nunc scelerisque aliquam. In hac habitasse platea dictumst. Mauris non mauris id lorem iaculis elementum eget quis mi. Aliquam scelerisque porta arcu sed tempus. Duis eleifend euismod laoreet. Aliquam mattis lectus et massa placerat feugiat. Nam mi nisl, rhoncus vel nibh vitae, ullamcorper blandit nibh. Curabitur purus lorem, sollicitudin ut erat eu, pharetra condimentum ante. Nullam imperdiet et neque et tempus. Sed sollicitudin velit molestie pretium iaculis. Praesent eu tincidunt erat. Nulla non fringilla nisi, vel hendrerit felis. Maecenas eget tempor neque.
+\subsection{Tablero}
+Esta clase ...
 
 \begin{verbatim}
 | rango |
@@ -118,8 +118,8 @@ rango copy do: [ :unNumero | unNumero isPrime ifFalse: [ rango remove: unNumero 
 Transcript show: rango.
 \end{verbatim}
 
-\subsection{Proin sodales leo dapibus sapien fermentum}
-Quisque tempus, tortor et convallis interdum, ipsum leo tempus ipsum, in molestie tortor arcu sit amet tellus. Praesent fermentum hendrerit nulla. In maximus ornare maximus. Nullam consectetur placerat enim sit amet lacinia. Etiam pellentesque tellus consectetur hendrerit iaculis. Sed non laoreet felis.
+\subsection{Jugador}
+Jugador es una clase ...
 
 \section{Excepciones}\label{sec:excepciones}
 % Explicación de cada una de las excepciones creadas y con qué fin fueron creadas.
